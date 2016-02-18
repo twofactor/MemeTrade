@@ -1,0 +1,67 @@
+<head>
+  <title>Memetrade</title>
+  <meta name="viewport" content="width=device-width, user-scalable=no" />
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <link rel="apple-touch-icon" href="img/icon.png">
+  <link href="splash.png" rel="apple-touch-startup-image">
+
+</head>
+
+<body>
+
+  <nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container">
+    <div class="stock_value">
+      2482<span class="stock_currency">GBP</span>
+    </div>
+
+    <div class="search pull-right">
+      <i class="fa fa-search"></i>
+    </div>
+  </div>
+</nav>
+  <div id="stocks">
+    <div class="container stocks_label">
+      MY MEMES
+    </div>
+    {{>stock}}
+    {{>stock}}
+    {{>stock}}
+    {{>stock}}
+    <div class="container stocks_label">
+      FEATURED MEMES
+    </div>
+    {{>stock}}
+    {{>stock}}
+    {{>stock}}
+    {{>stock}}
+    {{>stock}}
+    {{>stock}}
+    {{>stock}}
+    {{>stock}}
+    {{>stock}}
+  </div>
+  <footer>
+      <div>
+        {{>graph}}
+      </div>
+  </footer>
+</body>
+
+<template name="stock">
+  <div class="stock container">
+    <div class="stock_name pull-left">
+      Rare Pepes
+    </div>
+    <div class="stock_price positive pull-right">
+      543<span class="stock_currency">GBP</span>
+    </div>
+  </div>
+</template>
+
+<template name="graph">
+  <div class="graph">
+    <canvas id="{{stock_id}}" width="355" height="200"></canvas>
+  </div>
+</template>

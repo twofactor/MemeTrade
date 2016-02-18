@@ -1,0 +1,104 @@
+/* CSS declarations go here */
+
+#rarePepes {
+
+}
+
+div.graph {
+    background-color: #8BC34A;
+    padding-left: 3px;
+    padding: 10px;
+}
+
+#stocks {
+  margin-top: 64px;
+}
+
+footer {
+  background-color: #8BC34A;
+  position: fixed;
+  bottom: 0;
+}
+
+.navbar-default {
+  height: 64px;
+  padding-top: 20px;
+  background-color: #8BC34A;
+  border-bottom: 0px solid;
+}
+
+.negative {
+    color: #E53935;
+}
+
+.positive {
+    color: #8BC34A;
+}
+
+div.stock.container {
+    font-size: 12pt;
+    border-bottom-width: .5px;
+    border-color: #F8F8F9;
+    border-left-width: 0;
+    border-right-width: 0;
+    border-style: solid;
+    border-top-width: 0;
+    font-family: Avenir Next;
+    padding-bottom: 21px;
+    padding-top: 22px;
+}
+
+span.stock_currency {
+    font-size: 12px;
+}
+
+div.container.stocks_label {
+    font-family: Avenir Next;
+    border-color: #F8F8F9;
+    border-bottom-width: 0.5px;
+    border-top-width: 0;
+    border-right-width: 0;
+    border-left-width: 0;
+    border-style: solid;
+    padding-top: 22px;
+    padding-bottom: 8px;
+    color: #8E8E92;
+    font-size: 9pt;
+}
+
+div.container.stocks_label {
+    font-family: Avenir Next;
+    border-color: #F8F8F9;
+    border-bottom-width: 0.5px;
+    border-top-width: 0;
+    border-right-width: 0;
+    border-left-width: 0;
+    border-style: solid;
+    padding-top: 22px;
+    padding-bottom: 8px;
+    color: #8E8E92;
+    font-size: 9pt;
+}
+
+div.stock_value {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    text-align: center;
+    margin: auto;
+    padding-top: 12px;
+    color: #ffffff;
+    font-family: Avenir Next;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.stock_value .stock_currency {
+  font-weight: 500;
+}
+
+div.search {
+    font-size: 18px;
+    color: #ffffff;
+    margin-top: 8px;
+}
